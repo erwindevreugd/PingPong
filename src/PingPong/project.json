@@ -1,13 +1,25 @@
-﻿{
-  "version": "1.0.0-*",
+{
+    "name": "PingPong",
+    "description": "Simple test project.",
+    "title": "Ping Pong",
+    "authors": [ "Erwin de Vreugd" ],
+    "version": "0.1.0-beta-*",
+    "packOptions": {
+        "summary": "Simple test project.",
+        "tags": [ "ASP.NET Core", "PingPong" ],
+        "owners": [ "Erwin de Vreugd" ],
+        "licenseUrl": "https://github.com/erwindevreugd/PingPong/blob/master/LICENSE",
+        "projectUrl": "https://github.com/erwindevreugd/PingPong/"
+    },
 
-  "dependencies": {
-    "NETStandard.Library": "1.6.0"
-  },
+    "dependencies": {
+        "Microsoft.AspNetCore.Http.Abstractions": "1.1.0-preview1-final",
+        "NETStandard.Library": "1.6.1-preview1-24530-04"
+    },
 
-  "frameworks": {
-    "netstandard1.6": {
-      "imports": "dnxcore50"
+    "frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        }
     }
-  }
 }
